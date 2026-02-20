@@ -2263,15 +2263,15 @@
 <h3 id="how-the-numbers-work">How the Numbers Work<a class="headerlink" href="#how-the-numbers-work" title="Permanent link">&para;</a></h3>
 <p>Here is where 529 plans get exciting. Let's say you start contributing $200 per month when your child is born, and the account earns an average of 7% per year (a reasonable assumption for a stock-based portfolio over 18 years).</p>
 <p>The future value formula is:</p>
-<p>[
+<div class="arithmatex">\[
 FV = P \times \frac{(1 + r)^n - 1}{r}
-]</p>
-<p>Where ( P ) is your monthly contribution, ( r ) is the monthly interest rate, and ( n ) is the total number of months.</p>
-<p>With ( P = \$200 ), ( r = 0.07/12 = 0.00583 ), and ( n = 18 \times 12 = 216 ):</p>
-<p>[
+\]</div>
+<p>Where <span class="arithmatex">\( P \)</span> is your monthly contribution, <span class="arithmatex">\( r \)</span> is the monthly interest rate, and <span class="arithmatex">\( n \)</span> is the total number of months.</p>
+<p>With <span class="arithmatex">\( P = \$200 \)</span>, <span class="arithmatex">\( r = 0.07/12 = 0.00583 \)</span>, and <span class="arithmatex">\( n = 18 \times 12 = 216 \)</span>:</p>
+<div class="arithmatex">\[
 FV = 200 \times \frac{(1.00583)^{216} - 1}{0.00583} \approx \$86{,}800
-]</p>
-<p>You contributed ( \$200 \times 216 = \$43{,}200 ) of your own money. The other ( \$43{,}600 ) came from investment growth -- and it is all tax-free. That is the power of starting early and letting compound interest do the heavy lifting.</p>
+\]</div>
+<p>You contributed <span class="arithmatex">\( \$200 \times 216 = \$43{,}200 \)</span> of your own money. The other <span class="arithmatex">\( \$43{,}600 \)</span> came from investment growth -- and it is all tax-free. That is the power of starting early and letting compound interest do the heavy lifting.</p>
 <h3 id="529-contribution-scenarios">529 Contribution Scenarios<a class="headerlink" href="#529-contribution-scenarios" title="Permanent link">&para;</a></h3>
 <p>Here is what different monthly contribution amounts look like over 18 years at 7% average annual return.</p>
 <table>
@@ -2344,7 +2344,7 @@ FV = 200 \times \frac{(1.00583)^{216} - 1}{0.00583} \approx \$86{,}800
 <td>Stock market index fund</td>
 <td>Appreciating</td>
 <td>Historically grows ~7-10% per year after inflation</td>
-<td>$10,000 invested becomes ~$76,000 in 30 years</td>
+<td><span class="arithmatex">\(10,000 invested becomes ~\)</span>76,000 in 30 years</td>
 </tr>
 <tr>
 <td>Real estate (home)</td>
@@ -2374,7 +2374,7 @@ FV = 200 \times \frac{(1.00583)^{216} - 1}{0.00583} \approx \$86{,}800
 <td>New car</td>
 <td>Depreciating</td>
 <td>Loses ~20% of value in year one, ~60% in five years</td>
-<td>A $35,000 car is worth ~$14,000 after 5 years</td>
+<td>A <span class="arithmatex">\(35,000 car is worth ~\)</span>14,000 after 5 years</td>
 </tr>
 <tr>
 <td>Electronics</td>
@@ -2405,7 +2405,7 @@ FV = 200 \times \frac{(1.00583)^{216} - 1}{0.00583} \approx \$86{,}800
 <li>Buy quality furniture secondhand instead of brand new.</li>
 <li>Take the money you save and put it into index funds, real estate, or a 529 plan.</li>
 </ul>
-<p>Over 30 years, redirecting just $200 per month from depreciating purchases to an index fund earning 7% creates roughly ( \$227{,}000 ) in wealth. That is money you can pass to the next generation.</p>
+<p>Over 30 years, redirecting just $200 per month from depreciating purchases to an index fund earning 7% creates roughly <span class="arithmatex">\( \$227{,}000 \)</span> in wealth. That is money you can pass to the next generation.</p>
 <h3 id="your-home-as-a-generational-asset">Your Home as a Generational Asset<a class="headerlink" href="#your-home-as-a-generational-asset" title="Permanent link">&para;</a></h3>
 <p>For most American families, their home is their largest asset. A home you purchase today for $250,000 could be worth $500,000 or more in 20-25 years. If you pass that home to your children, they start their adult lives with an enormous advantage -- either a paid-off place to live or significant equity they can use to invest further.</p>
 <p>This is one reason homeownership has historically been a cornerstone of generational wealth. As you learned in Chapter 13, buying a home is not right for everyone at every stage of life. But when the time is right, a home is one of the most reliable appreciating assets available to everyday people.</p>
@@ -2655,6 +2655,8 @@ FV = 200 \times \frac{(1.00583)^{216} - 1}{0.00583} \approx \$86{,}800
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
